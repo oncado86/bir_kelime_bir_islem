@@ -26,10 +26,6 @@ class WordsDal(IWordsDal):
     def path(self) -> str:
         return self._path
 
-    @path.setter
-    def path(self, path: str) -> None:
-        self._path = path
-
     def open(self, path: str) -> list[str]:
         with open(path) as file:  # verilen konumdaki dosyayı açar
             values = file.readlines()  # verileri satır satır okur
