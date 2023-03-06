@@ -24,11 +24,6 @@ class WordsManager(IWordsManager):
     def path(self) -> str:
         return self._wordsDal.path
 
-    @path.setter
-    def path(self, path: str):
-        if len(path) > 0:
-            self._wordsDal.path = path
-
     def open(self, path: str):
         if len(path) > 0 and ".txt" in path:
             try:

@@ -6,6 +6,7 @@ class IWordsManager(ABC):
     """Kelime iş katmanı (IWordsManager sınıfı) için gerekli olan metotların imzalarını tutar.
         @category: Interface
         @category: Business, Manager"""
+
     def __init__(self):
         """WordsManager sınıfı için gerekli olan metotların imzalarını tutar"""
         self._message = "Implement this method in subclass of IWordsManager"
@@ -32,19 +33,6 @@ class IWordsManager(ABC):
                 NotImplementedError: Fonksiyon, sınıfta oluşturulmazsa hata mesajını verir
             Returns:
                 path[str]: dosya yolu"""
-        raise NotImplementedError(self._message)
-
-    @path.setter
-    @interface
-    def path(self, path: str) -> None:
-        """İçerisinde kelimelerin tutulduğu dosyanın yolunu ayarlar
-
-        Args:
-            path (str): dosya yolu
-
-        Raises:
-            NotImplementedError: Fonksiyon, sınıfta oluşturulmazsa hata mesajını verir
-        """
         raise NotImplementedError(self._message)
 
     @interface
