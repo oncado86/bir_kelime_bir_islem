@@ -2,6 +2,7 @@ from business.Words.iWordsManager import IWordsManager
 from dataAccess.wordsDAL import WordsDal
 from core.information import Information as info
 
+
 class WordsManager(IWordsManager):
     """Kelimelerin bulunduğu dosyaya erişmek için gerekli olan iş katmanı
     IWordsManager arayüz sınıfını kullanır.
@@ -29,7 +30,7 @@ class WordsManager(IWordsManager):
             self._wordsDal.path = path
 
     def open(self, path: str):
-        if len(path) > 0:
+        if len(path) > 0 and ".txt" in path:
             try:
                 return self._wordsDal.open(path)
             except Exception:

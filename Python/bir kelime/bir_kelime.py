@@ -6,7 +6,6 @@ from PyQt5.QtGui import (
     QStandardItemModel as standart_item_model,
     QStandardItem as standart_item
 )
-from PyQt5.QtCore import QModelIndex
 from business.Game.gameManager import GameManager
 from ui.birkelime_birislem import Ui_MainWindow as ui_main_window
 
@@ -44,6 +43,7 @@ class BirKelime(ui_main_window, main_window):
         self.ui.btn_kelime_bul.clicked.connect(self.find_words)
         self.ui.statusbar.showMessage(self.game_manager.player.name, 3_000)
 
+        # LineEdit obje listesi
         self.line_edit_list = [
             self.ui.le_unlu_harf_1,
             self.ui.le_unlu_harf_2,
@@ -68,7 +68,6 @@ class BirKelime(ui_main_window, main_window):
         ]
 
         self.fill_letters()
-
         self.show()
 
     def fill_letters(self):
@@ -118,7 +117,6 @@ class BirKelime(ui_main_window, main_window):
             ",", ".")
         self.ui.statusbar.clearMessage()
         self.ui.statusbar.showMessage(info)
-
 
     def line_edit_font_defaut_size(self):
         """LineEdit objelerinin font ayarlarını varsayılan yapar"""

@@ -17,7 +17,8 @@ class Ui_MainWindow(object):
         MainWindow.resize(377, 490)
         MainWindow.setMaximumSize(QtCore.QSize(16777215, 490))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/img/imperial-logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/img/imperial-logo.png"),
+                       QtGui.QIcon.Normal, QtGui.QIcon.Off)  # type: ignore
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -39,28 +40,32 @@ class Ui_MainWindow(object):
         self.le_unsuz_harf_1.setEnabled(False)
         self.le_unsuz_harf_1.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_1.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_1.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_1.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_1.setObjectName("le_unsuz_harf_1")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_1)
         self.le_unsuz_harf_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_2.setEnabled(False)
         self.le_unsuz_harf_2.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_2.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_2.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_2.setObjectName("le_unsuz_harf_2")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_2)
         self.le_unsuz_harf_3 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_3.setEnabled(False)
         self.le_unsuz_harf_3.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_3.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_3.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_3.setObjectName("le_unsuz_harf_3")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_3)
         self.le_unsuz_harf_4 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_4.setEnabled(False)
         self.le_unsuz_harf_4.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_4.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_4.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_4.setPlaceholderText("")
         self.le_unsuz_harf_4.setObjectName("le_unsuz_harf_4")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_4)
@@ -68,35 +73,40 @@ class Ui_MainWindow(object):
         self.le_unsuz_harf_5.setEnabled(False)
         self.le_unsuz_harf_5.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_5.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_5.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_5.setObjectName("le_unsuz_harf_5")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_5)
         self.le_unsuz_harf_6 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_6.setEnabled(False)
         self.le_unsuz_harf_6.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_6.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_6.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_6.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_6.setObjectName("le_unsuz_harf_6")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_6)
         self.le_unsuz_harf_7 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_7.setEnabled(False)
         self.le_unsuz_harf_7.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_7.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_7.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_7.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_7.setObjectName("le_unsuz_harf_7")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_7)
         self.le_unsuz_harf_8 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_8.setEnabled(False)
         self.le_unsuz_harf_8.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_8.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_8.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_8.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_8.setObjectName("le_unsuz_harf_8")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_8)
         self.le_unsuz_harf_9 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unsuz_harf_9.setEnabled(False)
         self.le_unsuz_harf_9.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_9.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_9.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_9.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_9.setPlaceholderText("")
         self.le_unsuz_harf_9.setObjectName("le_unsuz_harf_9")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_9)
@@ -104,7 +114,8 @@ class Ui_MainWindow(object):
         self.le_unsuz_harf_10.setEnabled(False)
         self.le_unsuz_harf_10.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unsuz_harf_10.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unsuz_harf_10.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unsuz_harf_10.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unsuz_harf_10.setObjectName("le_unsuz_harf_10")
         self.vLayout_unsuz_harfler.addWidget(self.le_unsuz_harf_10)
         self.hLayout_harfler.addLayout(self.vLayout_unsuz_harfler)
@@ -114,28 +125,28 @@ class Ui_MainWindow(object):
         self.le_unlu_harf_1.setEnabled(False)
         self.le_unlu_harf_1.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_1.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_1.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_1.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_1.setObjectName("le_unlu_harf_1")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_1)
         self.le_unlu_harf_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_2.setEnabled(False)
         self.le_unlu_harf_2.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_2.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_2.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_2.setObjectName("le_unlu_harf_2")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_2)
         self.le_unlu_harf_3 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_3.setEnabled(False)
         self.le_unlu_harf_3.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_3.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_3.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_3.setObjectName("le_unlu_harf_3")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_3)
         self.le_unlu_harf_4 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_4.setEnabled(False)
         self.le_unlu_harf_4.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_4.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_4.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_4.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_4.setPlaceholderText("")
         self.le_unlu_harf_4.setObjectName("le_unlu_harf_4")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_4)
@@ -143,35 +154,35 @@ class Ui_MainWindow(object):
         self.le_unlu_harf_5.setEnabled(False)
         self.le_unlu_harf_5.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_5.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_5.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_5.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_5.setObjectName("le_unlu_harf_5")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_5)
         self.le_unlu_harf_6 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_6.setEnabled(False)
         self.le_unlu_harf_6.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_6.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_6.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_6.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_6.setObjectName("le_unlu_harf_6")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_6)
         self.le_unlu_harf_7 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_7.setEnabled(False)
         self.le_unlu_harf_7.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_7.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_7.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_7.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_7.setObjectName("le_unlu_harf_7")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_7)
         self.le_unlu_harf_8 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_8.setEnabled(False)
         self.le_unlu_harf_8.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_8.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_8.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_8.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_8.setObjectName("le_unlu_harf_8")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_8)
         self.le_unlu_harf_9 = QtWidgets.QLineEdit(self.centralwidget)
         self.le_unlu_harf_9.setEnabled(False)
         self.le_unlu_harf_9.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_9.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_9.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_9.setAlignment(QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_9.setPlaceholderText("")
         self.le_unlu_harf_9.setObjectName("le_unlu_harf_9")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_9)
@@ -179,7 +190,8 @@ class Ui_MainWindow(object):
         self.le_unlu_harf_10.setEnabled(False)
         self.le_unlu_harf_10.setMinimumSize(QtCore.QSize(0, 45))
         self.le_unlu_harf_10.setMaximumSize(QtCore.QSize(50, 16777215))
-        self.le_unlu_harf_10.setAlignment(QtCore.Qt.AlignCenter)
+        self.le_unlu_harf_10.setAlignment(
+            QtCore.Qt.AlignCenter)  # type: ignore
         self.le_unlu_harf_10.setObjectName("le_unlu_harf_10")
         self.vLayout_unlu_harfler.addWidget(self.le_unlu_harf_10)
         self.hLayout_harfler.addLayout(self.vLayout_unlu_harfler)

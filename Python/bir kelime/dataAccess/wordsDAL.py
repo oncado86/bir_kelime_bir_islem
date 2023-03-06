@@ -1,3 +1,4 @@
+from pathlib import Path
 from dataAccess.iWordsDAL import IWordsDal
 
 
@@ -12,8 +13,10 @@ class WordsDal(IWordsDal):
     def __init__(self):
         """Kelimelerin bulunduğu dosyaya erişmek için gerekli olan veri erişim katmanı
         @category: Data Access"""
+        import sys
+        path_file = Path(sys.path[0])
         self._words = []
-        self._path = "data/kelimeler.txt"
+        self._path = f"{path_file}/data/kelimeler.txt"
 
     @property
     def words(self) -> list[str]:
