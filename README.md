@@ -1,11 +1,14 @@
 <h1> Bir Kelime - Bir İşlem </h1>
-<div align="center" width="100%">
-<h3>Bir kelime bir işlem oyununun algoritmasının tasarlanıp kodlanması</h3>
 
+<div align="left" width="100%">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/oncado86/bir_kelime_bir_islem?label=Commit%20Activity&style=plastic">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oncado86/bir_kelime_bir_islem?label=Last%20Commit&style=plastic">
 <img alt="GitHub" src="https://img.shields.io/github/license/oncado86/bir_kelime_bir_islem?label=License&style=plastic">
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=oncado86.bir_kelime_bir_islem&right_color=lightgrey&format=true&left_text=My%20Page%20Visitors">
+</div>
+
+<div align="center" width="100%">
+<h3>Bir kelime bir işlem oyununun algoritmasının tasarlanıp kodlanması</h3>
 <br>
 <br>
 <h3>Bir İşlem Ekran Görüntüleri</h3>
